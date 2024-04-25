@@ -1,1 +1,20 @@
-/* your code */
+    table{
+		width:100%;
+		border: 2px solid black;
+		
+	}
+
+
+th,td{
+	border: 1px solid black;
+	padding:8px;
+	text-align:left;
+}
+th{
+	background-color:blue;
+}
+tbody tr:nth-child(even){
+	background-color:yellow
+}
+    
+
